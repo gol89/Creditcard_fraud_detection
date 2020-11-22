@@ -1,6 +1,7 @@
 # Creditcard_fraud_detection
 Separating the fraudulent transactions from normal transactions for Credit Cards.
 The Dataset contains only 492 (0.17%) fraudlent transactions as compared to 2,83,000 normal trasnactions, thus the dataset is heavily skewed.
+The Dataset can be downloaded from https://drive.google.com/drive/folders/1IxJI_vJQdjTs4o8C4heJeSCj58bGsn7H?usp=sharing
 
 Three Different models were created for separating the fradulent transactions from the normal ones.
 
