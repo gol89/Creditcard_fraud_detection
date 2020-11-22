@@ -9,6 +9,7 @@ Three Different models were created for separating the fradulent transactions fr
 The Autoencoders were trained only using 2000 normal transcations and the latent representation was obtained from the encoder part.
 Since it is trained only for the normal transactions, a fradulent transaction will have a different latent representation which can easily be classified by any classifier.
 The model was trained only on 2000 normal records, as a result the training completed in mere few seconds as compared to hours for other methods.
+Check the T-SNE plot difference in the original and Latent_representation. 
 
 ## Using XGBClassifier after upsampling using SMOTE.
 The dataset was up sampled using SMOTE and then XGBClassifier was trained on it.
